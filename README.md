@@ -6,7 +6,10 @@ Eficent fastq and other parsers for NGS analysis.
 Short example: 
 
 ```python 
-inputfile="example.fastq"
+
+import biotools
+
+inputfile = "example.fastq"
 barcodes = {
 	"TGAACG" : 1,
 	"ACCAGA" : 2,
@@ -14,7 +17,7 @@ barcodes = {
 	"TCTGGA" : 4
 }
 
-outputdir = results 
+outputdir = "results" 
 
 five_const = "GGGCAACTCC"
 three_const = "AAAATGGCTA"
